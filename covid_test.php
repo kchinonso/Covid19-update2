@@ -12,7 +12,7 @@ require "header.php";
                
                <div class="card-body justify-content-center row">
                  
-                  <p class="card-title text-center text-white"> Call</p>
+                  <h5 class="card-title text-center text-white ">Test No longer Free Unless A Health Worker or A Hospiceworker</h5>
                
                   
                 
@@ -38,7 +38,7 @@ require "header.php";
                
                <div class="card-body justify-content-center row">
                  
-                  <p class="card-title text-center text-white"> Call</p>
+                  <h5 class="card-title text-center text-white">Rapid Flow Test </h5>
                
                   
                 
@@ -54,8 +54,7 @@ require "header.php";
       <a href=""> <div class="card shadow boder bg-primary " style="border-radius: 30px;">
                
                <div class="card-body justify-content-center row">
-                 
-                  <p class="card-title text-center text-white"> Call</p>
+               <h5 class="card-title text-center text-white">PCR Test </h5>
                
                   
                 
@@ -69,6 +68,49 @@ require "header.php";
    </div>
 </div>
     </div>
+
+
+
+    <div class="container">
+      <div class="row justify-content-center">
+       <!-- <div class="container mt-5"> -->
+     <div class="row justify-content-center"> 
+        <div class="col-md-3 mt-2 mb-5">
+        <a href=""> <div class="card shadow boder btn btn-outline-primary " style="border-radius: 30px;">
+                 
+                 <div class="card-body justify-content-center row">
+                   
+                    <p class="card-title text-center "> Visit</p>
+                 
+                    
+                  
+     
+                
+                 
+      
+                 </div>
+              </div></a>
+        </div>
+  
+        <div class="col-md-3 mt-2 mb-5">
+        <a href=""> <div class="card shadow boder btn btn-outline-primary " style="border-radius: 30px;">
+                 
+                 <div class="card-body justify-content-center row">
+                   
+                    <p class="card-title text-center "> Visit</p>
+                 
+                    
+                  
+     
+                
+                 
+      
+                 </div>
+              </div></a>
+        </div>
+     </div>
+  </div>
+      </div>
 </div>
 
 <div class="container">
@@ -80,7 +122,7 @@ require "header.php";
                
                <div class="card-body justify-content-center row">
                  
-                  <p class="card-title text-center text-white"> Call</p>
+                  <p class="card-title text-center text-white"> Buy Test Pharmacy or Online</p>
                
                   
                 
@@ -101,11 +143,11 @@ require "header.php";
     <div class="container mb-5">
    <div class="row justify-content-center">
       <div class="col-md-8 mt-5">
-      <a href=""> <div class="card shadow boder bg-primary " style="border-radius: 10px;">
+      <a href=""> <div class="card shadow boder btn btn-outline-primary" style="border-radius: 10px;">
                
                <div class="card-body justify-content-center row">
                  
-                  <p class="card-title text-center text-white"> Call</p>
+                  <p class="card-title text-center "> Search Pharmacy</p>
                
                   
                 
