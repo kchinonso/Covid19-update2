@@ -1,4 +1,5 @@
 <?php
+$title = "Test Positive";
 require "header.php";
 
 ?>
@@ -143,7 +144,7 @@ require "header.php";
             </div></a>
       </div>
       <div class="col-md-6 mt-5">
-      <a href="stay_save.php"> <div class="card shadow boder btn btn-outline-primary" style="border-radius: 10px;">
+      <a href="stay_safe.php"> <div class="card shadow boder btn btn-outline-primary" style="border-radius: 10px;">
                
                <div class="card-body justify-content-center row">
                  

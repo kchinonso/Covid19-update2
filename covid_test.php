@@ -1,4 +1,5 @@
 <?php
+$title = "Covid Test";
 
 require "header.php";
 ?>

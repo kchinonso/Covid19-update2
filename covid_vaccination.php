@@ -1,4 +1,5 @@
 <?php
+$title = "Vaccination";
 require "header.php";
 ?>
 

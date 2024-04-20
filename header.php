@@ -2,7 +2,7 @@
 
 
 <?php
-$title="Covid19";
+// $title="";
 
 ?>
 <!DOCTYPE html>
@@ -18,18 +18,17 @@ $title="Covid19";
 <body>
    <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8 ">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-primary " style="border-radius: 10px ;">
-                <div class="container-fluid">
-                  <a class="navbar-brand " class="text-white "><h3 class="text-white text-center"><?= $title  ?></h3></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                 
-              </li>
-                    </ul>
-                    
-                  </div>
+        <div class="col-md-8 bg-primary rad-d h-25">
+           <div class="row">
+            <div class="col-md-4">
+              <h4><a class="text-white" href="index.php"><br>Home</a></h4>
+            </div>
+            <div class="col-md-6">
+              <h4 class="text-white">
+                <br><?php echo $title  ?><br>
+              </h4>
+            </div>
+           </div>
                 </div>
                 <div class="col-md-4">
                   <a class="navbar-brand " href="javascript:void(0)">        <div class="card shadow boder">

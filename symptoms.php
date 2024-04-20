@@ -1,5 +1,5 @@
 <?php
-
+$title = "Covid19 Symptoms";
 require "header.php";
 
 ?>

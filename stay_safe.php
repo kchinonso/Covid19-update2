@@ -1,4 +1,5 @@
 <?php
+$title = "Stay Safe Guide";
 require "header.php";
 ?>
 
@@ -37,7 +38,7 @@ require "header.php";
                        
                            
                          <p class="card-text">
-                             //
+                             Close contact with people who have the virus 
                          </p>
                         
              
@@ -51,7 +52,7 @@ require "header.php";
                        
                            
                          <p class="card-text">
-                             //
+                             Affected patiens breathing, speaking , coughing r sneezes release smal droplets into the ar or surface 
                          </p>
                         
              
@@ -65,7 +66,7 @@ require "header.php";
                        
                            
                          <p class="card-text">
-                             //
+                           More likely to catch Covid indoors or crowded spaces
                          </p>
                         
              
@@ -79,7 +80,7 @@ require "header.php";
                        
                            
                          <p class="card-text">
-                             //
+                             Can still catch or spread Covid even have no symptoms are fully vaccinated and have had Covid before 
                          </p>
                         
              
@@ -94,7 +95,7 @@ require "header.php";
        
                             
                            <h5 class="card-text">
-                              How Covid Is Spread & How To Avoid it 
+                              How To Avoid Catching Covid
   </5>
                           
                
@@ -120,7 +121,7 @@ require "header.php";
                          
                              
                            <p class="card-text">
-                               //
+                               Wash Hands 
                            </p>
                           
                
@@ -134,7 +135,7 @@ require "header.php";
                          
                              
                            <p class="card-text">
-                               //
+                               Regular clean shared spaces - Door Handles Kitchen and Bathrooms
                            </p>
                           
                
@@ -148,7 +149,7 @@ require "header.php";
                          
                              
                            <p class="card-text">
-                               //
+                              When sneezing cover Nose and Mouth
                            </p>
                           
                
@@ -162,7 +163,7 @@ require "header.php";
                          
                              
                            <p class="card-text">
-                               //
+                               Wear Face mask in crowded places or close conact with other people
                            </p>
                           
                
@@ -197,6 +198,27 @@ require "header.php";
             
          </div>
      </div>
+
+     <div class="container mb-5">
+   <div class="row justify-content-center">
+      <div class="col-md-8 mt-5">
+      <a href=""> <div class="card shadow boder h-100" style="border-radius: 10px;">
+               
+               <div class="card-body justify-content-center row">
+                 
+               <button class="btn btn-outline-primary"><p class=" text-center  "> Hand Washing Guide</p></button>
+               
+                  
+                
+   
+              
+               
+    
+               </div>
+            </div></a>
+      </div>
+   </div>
+</div>
     
 </body>
 </html>

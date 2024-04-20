@@ -1,10 +1,10 @@
 <?php
 
 
+$title = "Covid19 Information";
 
 require "header.php";
 
-$title = "Covid19 Information";
 
 
 ?>
@@ -108,7 +108,7 @@ $title = "Covid19 Information";
             </div></a>
             </div>
             <div class="col-md-4 my-5">
-             <a href=""> <div class="card shadow boder bg-primary radius" >
+             <a href="stay_safe.php"> <div class="card shadow boder bg-primary radius" >
                 
                <div class="card-body justify-content-center row">
                  <img src="asset/images/stay safe.png"  height="100" class="card-img-top w-100 " alt="">
