@@ -4,6 +4,13 @@
 <?php
 // $title="";
 
+$d_none = "";
+
+if($title == "Covid Information"){
+  $d_none = "d-none";
+}
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,12 +28,12 @@
         <div class="col-md-8 bg-primary rad-d h-25">
            <div class="row">
             <div class="col-md-4">
-              <h4><a class="text-white" href="index.php"><br>Home</a></h4>
+              <h4 class="<?=  $d_none ?>"><a class="text-white" href="index.php"><form  class="mt-2" method="POST"><button class="btn btn-danger text-white" name="home"><a class="text-white" href="index.php">Home</a></button></form></a></h4>
             </div>
             <div class="col-md-6">
-              <h4 class="text-white">
-                <br><?php echo $title  ?><br>
-              </h4>
+              <h1 class="text-white">
+                <?php echo $title  ?><br>
+              </h1>
             </div>
            </div>
                 </div>

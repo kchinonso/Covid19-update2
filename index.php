@@ -1,7 +1,7 @@
 <?php
 
 
-$title = "Covid19 Information";
+$title = "Covid Information";
 
 require "header.php";
 
