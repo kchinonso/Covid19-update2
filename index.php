@@ -12,7 +12,7 @@ require "header.php";
       <div class="container ">
         <div class="d-flex justify-content-center">
             <div class="col-md-6 ">
-                <form class="d-flex mt-3" method="GET" action="search.php">
+                <form class="d-flex mt-3" method="GET" action="search.php" id="form">
                     <input class="form-control me-2" name="key" type="text" placeholder="Search"  required>
                     <select name="country" class="form-select" aria-label="Default select example">
                     <!-- <option selected="">Select Country</option> -->
@@ -266,7 +266,10 @@ require "header.php";
     <option value="ZMB">Zambia</option>
     <option value="ZWE">Zimbabwe</option>
                   </select>
-                    <input type="submit" name="submit" value="Serach" class="btn btn-primary">
+                    <input id="searchbtn1" type="submit" name="submit" value="Serach" class="btn btn-primary">
+                    <button style="display: none;" class="btn btn-primary" id="searchbtn2" type="submit">
+                      <span class="spinner-border spinner-border-sm"></span>
+                    </button>
                   </form>
             </div>
         </div>
@@ -412,5 +415,29 @@ require "header.php";
 
 
       <script src="plugins/bootstrap.bundle.min.js"></script>
+      <script src="js/main.js"></script>
+
+      <script>
+        var form = document.getElementById("form");
+        form.addEventListener("submit", function(evt) {
+          var searchbtn1 = document.getElementById("searchbtn1");
+          var searchbtn2 = document.getElementById("searchbtn2");
+
+          searchbtn1.style.display = "none";
+          searchbtn2.style.display = "block";
+
+        
+        });
+
+        setInterval(function(){
+          var searchbtn1 = document.getElementById("searchbtn1");
+          searchbtn1.style.display = "block";
+          searchbtn2.style.display = "none";
+
+        },20000);
+      </script>
+
+
+      
 </body>
 </html>

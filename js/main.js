@@ -105,6 +105,7 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
+  
   $("#clickkkkkkkk").click(function(){
     $('#drop').slideUp(1000, function(){
       // alert('Success')
@@ -138,3 +139,7 @@ $(document).ready(function(){
 // function scrollDown() {
 //   window.scrollBy(0, 10000); // Adjust the value to scroll by desired amount
 // }
+
+
+      
+     
