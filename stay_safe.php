@@ -3,6 +3,7 @@ $title = "Stay Safe Guide";
 require "header.php";
 ?>
 
+              <!-- stay safe guide starts here   -->
 <div class="container">
          <div class="row">
              <div class="col-md-6 mt-5 ">
@@ -52,7 +53,7 @@ require "header.php";
                        
                            
                          <p class="card-text">
-                             Affected patiens breathing, speaking , coughing r sneezes release smal droplets into the ar or surface 
+                         Affected patients breathing, speaking, coughing and sneezing releases small droplets into the air or near surfaces
                          </p>
                         
              
@@ -105,7 +106,7 @@ require "header.php";
                           
                           <div class="card-body row justify-content-center ">
        
-                             <img src="asset/images/uk-data.png" height="100" class="card-img-top w-25" alt="">
+                             <img src="asset/images/world-data.png" height="100" class="card-img-top w-25" alt="">
                              
                            <p class="card-text">
                                
@@ -171,30 +172,6 @@ require "header.php";
                        </div>
                </div>
 
-                
-       <!-- <div class="col-md-6 mt-5">
-         <div class="card shadow boder">
-                    
-                    <div class="card-body  row justify-content-center">
- 
-                       <img src="asset/images/world-data.png" height="50" class="card-img-top w-25" alt="">
-                   
-                     <p class="card-text">
-                         
-                     </p>
-                    
-         
-                    </div>
-                 </div>
-         </div>
-     
-            
-       -->
-       
-      
-              
-             
-     
             
          </div>
      </div>
@@ -202,7 +179,7 @@ require "header.php";
      <div class="container mb-5">
    <div class="row justify-content-center">
       <div class="col-md-8 mt-5">
-      <a href=""> <div class="card shadow boder h-100" style="border-radius: 10px;">
+      <a href="New_HandWash_Poster (who.int)"> <div class="card shadow boder h-100" style="border-radius: 10px;">
                
                <div class="card-body justify-content-center row">
                  
@@ -219,6 +196,6 @@ require "header.php";
       </div>
    </div>
 </div>
-    
+       <!-- stay safe guide ends here   -->
 </body>
 </html>

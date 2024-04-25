@@ -6,9 +6,8 @@ require "header.php";
 
 ?>
 
+           <!-- Covid data information starts here    -->
 
-<!-- <div class="container">
-   <div class="row justify-content-space-between"> -->
       <div class="container">
          <div class="row">
              <div class="col-md-6 mt-5 ">
@@ -67,7 +66,7 @@ require "header.php";
                          <div class="card-body ">
       
                            
-                            <h3 class="card-title text-center text-white">Word Data</h3>
+                            <h3 class="card-title text-center text-white">World Data</h3>
                           <p class="card-text">
                               
                           </p>
@@ -80,12 +79,13 @@ require "header.php";
       
               
               <div class="col-md-6 mt-5">
-              <div class="card shadow boder btn btn-outline-primary">
+           <a href="COVID-19 | UKHSA data dashboard">
+           <div class="card shadow boder btn btn-outline-primary">
                          
                          <div class="card-body  ">
       
                           
-                            <p class="card-title text-center ">Covid Cases</p>
+                            <p class="card-title text-center ">UK Covid Cases</p>
                           <p class="card-text">
                               
                           </p>
@@ -93,18 +93,20 @@ require "header.php";
               
                          </div>
                       </div>
+           </a>
               </div>
       
       
       
               
               <div class="col-md-6 mt-5">
-              <div class="card shadow boder btn btn-outline-primary">
+             <a href="Why is COVID-19 data being presented as weekly statistics? (who.int)">
+             <div class="card shadow boder btn btn-outline-primary">
                          
                          <div class="card-body ">
       
                          
-                            <p class="card-title text-center">Covid Cases</p>
+                            <p class="card-title text-center">World Covid Cases</p>
                           <p class="card-text">
                               
                           </p>
@@ -112,14 +114,16 @@ require "header.php";
               
                          </div>
                       </div>
+             </a>
               </div>
               <div class="col-md-6 mt-5 ">
-               <div class="card shadow boder btn btn-outline-primary">
+              <a href="UKHSA data series on deaths in people with COVID-19: technical summary - GOV.UK (www.gov.uk)">
+              <div class="card shadow boder btn btn-outline-primary">
                           
                           <div class="card-body  ">
        
                           
-                             <p class="card-title text-center">Covid Death</p>
+                             <p class="card-title text-center">UK Covid Death</p>
                            <p class="card-text">
                                
                            </p>
@@ -127,23 +131,26 @@ require "header.php";
                
                           </div>
                        </div>
+              </a>
                </div>
        
        
                <div class="col-md-6 mt-5">
+            <a href="COVID-19 deaths | WHO COVID-19 dashboard">
                <div class="card shadow boder btn btn-outline-primary">
                           
-                          <div class="card-body ">
+                  <div class="card-body ">
+
+                     
+                     <p class="card-title text-center">World Covid Death</p>
+                   <p class="card-text">
+                       
+                   </p>
+                  
        
-                             
-                             <p class="card-title text-center">Covid Death</p>
-                           <p class="card-text">
-                               
-                           </p>
-                          
-               
-                          </div>
-                       </div>
+                  </div>
+               </div>
+            </a>
                </div>
      
      
@@ -157,82 +164,83 @@ require "header.php";
       
               
               <div class="col-md-6 mt-5">
-              <div class="card shadow boder btn btn-outline-primary">
+         <a href="Statistics » Vaccinations: COVID-19 (england.nhs.uk)">
+            <div class="card shadow boder btn btn-outline-primary">
                          
-                         <div class="card-body  ">
-      
-                            <p class="card-title text-center">Covid Vaccine Count</p>
-                          <p class="card-text">
-                              
-                          </p>
-                         
-              
-                         </div>
-                      </div>
+               <div class="card-body  ">
+
+                  <p class="card-title text-center">UK Covid Vaccine Count</p>
+                <p class="card-text">
+                    
+                </p>
+               
+    
+               </div>
+            </div>
+         </a>
               </div>
       
       
       
               
               <div class="col-md-6 mt-5">
-              <div class="card shadow boder btn btn-outline-primary">
+             <a href="COVID-19 vaccines | WHO COVID-19 dashboard">
+               <div class="card shadow boder btn btn-outline-primary">
                          
-                         <div class="card-body ">
-      
-                            <p class="card-title text-center">Covid Vaccine Count</p>
-                          <p class="card-text">
-                              
-                          </p>
-                         
-              
-                         </div>
-                      </div>
+                  <div class="card-body ">
+
+                     <p class="card-title text-center">World Covid Vaccine Count</p>
+                   <p class="card-text">
+                       
+                   </p>
+                  
+       
+                  </div>
+               </div>
+             </a>
               </div>
      
               <div class="col-md-6 my-5 ">
-                 <div class="card shadow boder btn btn-outline-primary">
+              <a href="UKHSA data dashboard">
+               <div class="card shadow boder btn btn-outline-primary">
                             
-                            <div class="card-body  ">
-         
-                               <p class="card-title text-center">Covid Testing Count</p>
-                             <p class="card-text">
-                                 
-                             </p>
-                            
-                 
-                            </div>
-                         </div>
+                  <div class="card-body  ">
+
+                     <p class="card-title text-center">UK Covid Testing Count</p>
+                   <p class="card-text">
+                       
+                   </p>
+                  
+       
+                  </div>
+               </div>
+              </a>
                  </div>
          
          
                  <div class="col-md-6 my-5">
-                 <div class="card shadow boder btn btn-outline-primary">
+          <a href="Total COVID-19 tests conducted vs. confirmed cases (ourworldindata.org)">
+            <div class="card shadow boder btn btn-outline-primary">
                             
-                            <div class="card-body ">
-         
-                               
-                               <p class="card-title text-center">Covid Testing Count</p>
-                             <p class="card-text">
-                                 
-                             </p>
-                            
-                 
-                            </div>
-                         </div>
-                 </div>
-         
-         
-                 
-                 
-            
-            
+               <div class="card-body ">
+
+                  
+                  <p class="card-title text-center">World Covid Testing Count</p>
+                <p class="card-text">
                     
+                </p>
+               
+    
+               </div>
+            </div>
+          </a>
+                 </div>
+      
          </div>
      </div>
-   <!-- </div>
-</div> -->
 
 
+        <!-- Covid data information ends here    -->
     
 </body>
 </html>

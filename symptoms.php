@@ -3,7 +3,7 @@ $title = "Covid19 Symptoms";
 require "header.php";
 
 ?>
-
+     <!-- covid symptoms starts here  -->
 
 <div class="container">
     <div class="row">
@@ -30,7 +30,7 @@ require "header.php";
                
                <div class="card-body justify-content-center row">
                  <img src="asset/images/banner-1.png"  height="50" class="card-img-top w-50 " alt="">
-                  <p class="card-title text-center text-white">A Meningitis Type of Rashe That Does Not  Fade Rolling a Glass Over it</p>
+                  <p class="card-title text-center text-white">A Meningitis Type of Rash That Does Not  Fade Rolling a Glass Over it</p>
                
                   
                 
@@ -62,7 +62,7 @@ require "header.php";
                
                <div class="card-body justify-content-center row">
                  <img src="asset/images/banner-1.png"  height="50" class="card-img-top w-50 " alt="">
-                  <p class="card-title text-center text-white"> Semms Very Unwell</p>
+                  <p class="card-title text-center text-white"> Seems Very Unwell</p>
                
                   
                 
@@ -93,7 +93,7 @@ require "header.php";
          <div class="card shadow boder bg-primary h-100" style="border-radius: 30%;">
                
                <div class="card-body justify-content-center row">
-                 <img src="asset/images/tested-positive.png"  height="50" class="card-img-top w-50 " alt="">
+                 <img src="asset/images/blog-1-600x420.jpg"  height="50" class="card-img-top w-50 " alt="">
                   <p class="card-title text-center text-white">Breathless Unable to say Short Sentence</p>
                
                   
@@ -147,7 +147,7 @@ require "header.php";
                
                <div class="card-body justify-content-center row">
                  
-                  <button class="btn btn-outline-primary"><p class="card-title text-center  "> Call or Attend Accident and Emergency</p></button>
+                  <button class="btn btn-outline-primary"><p class="card-title text-center  ">Call 999 or Attend Accident and Emergency</p></button>
                
                   
                 
@@ -160,7 +160,6 @@ require "header.php";
       </div>
    </div>
 </div>
-
 
 <div class="container ">
    <div class="row justify-content-center">
@@ -318,11 +317,7 @@ require "header.php";
    </div>
 </div>
 
-
-<script>
-
-
-</script>
+   <!-- covid symptoms ends here   -->
     <script src="plugins/bootstrap.bundle.min.js"></script>
     <script src="plugins/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script>

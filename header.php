@@ -23,6 +23,7 @@ if($title == "Covid Information"){
     
 </head>
 <body>
+  <!-- header starts here  -->
    <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8 bg-primary rad-d h-25">
@@ -57,3 +58,5 @@ if($title == "Covid Information"){
         </div>
     </div>
    </div>
+
+   <!-- header ends here  -->

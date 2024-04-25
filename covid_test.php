@@ -3,7 +3,8 @@ $title = "Covid Test";
 
 require "header.php";
 ?>
-
+    
+    <!-- covid_test starts here  -->
 <div class="container">
     <div class="row">
     <div class="container mb-5">
@@ -77,11 +78,11 @@ require "header.php";
        <!-- <div class="container mt-5"> -->
      <div class="row justify-content-center"> 
         <div class="col-md-3 mt-2 mb-5">
-        <a href=""> <div class="card shadow boder btn btn-outline-primary " style="border-radius: 30px;">
+        <a href="Who can get a free COVID-19 rapid lateral flow test - NHS (www.nhs.uk)"> <div class="card shadow boder btn btn-outline-primary " style="border-radius: 30px;">
                  
                  <div class="card-body justify-content-center row">
                    
-                    <p class="card-title text-center "> Visit</p>
+                    <p class="card-title text-center "> Click here for more info</p>
                  
                     
                   
@@ -94,11 +95,11 @@ require "header.php";
         </div>
   
         <div class="col-md-3 mt-2 mb-5">
-        <a href=""> <div class="card shadow boder btn btn-outline-primary " style="border-radius: 30px;">
+        <a href="NHS PCR tests for COVID-19 - NHS (www.nhs.uk)"> <div class="card shadow boder btn btn-outline-primary " style="border-radius: 30px;">
                  
                  <div class="card-body justify-content-center row">
                    
-                    <p class="card-title text-center "> Visit</p>
+                    <p class="card-title text-center "> Click here for more info</p>
                  
                     
                   
@@ -144,7 +145,7 @@ require "header.php";
     <div class="container mb-5">
    <div class="row justify-content-center">
       <div class="col-md-8 mt-5">
-      <a href=""> <div class="card shadow boder btn btn-outline-primary" style="border-radius: 10px;">
+      <a href="Find a pharmacy - NHS (www.nhs.uk)"> <div class="card shadow boder btn btn-outline-primary" style="border-radius: 10px;">
                
                <div class="card-body justify-content-center row">
                  
@@ -163,6 +164,6 @@ require "header.php";
 </div>
     </div>
 </div>
-    
+     <!-- covid_test ends here  -->
 </body>
 </html>

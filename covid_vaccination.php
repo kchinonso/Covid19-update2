@@ -27,6 +27,8 @@ require "header.php";
 </div>
     </div>
 </div>
+
+   <!-- vaccination information starts here  -->
 <div class="container">
     <div class="row">
     <div class="container ">
@@ -36,7 +38,7 @@ require "header.php";
                
                <div class="card-body justify-content-center row">
                  
-                  <p class="card-title text-center text-white"> Test Not Requird If You Are Healthy</p>
+                  <p class="card-title text-center text-white"> Test Not Required  If You Are Healthy</p>
                
                   
                 
@@ -109,7 +111,7 @@ require "header.php";
         <a href=""> <div class="card shadow boder bg-primary " style="border-radius: 30%;">
                
                <div class="card-body justify-content-center row">
-               <p class="card-title text-center text-white"> Work as a Hospice</p>
+               <p class="card-title text-center text-white"> Work in a Hospice</p>
                  <img src="asset/images/banner-1.png"  height="50" class="card-img-top w-50 " alt="">
                  
                
@@ -218,6 +220,6 @@ require "header.php";
 </div>
     </div>
 </div>
-    
+    <!-- vaccination information starts here  -->
 </body>
 </html>
