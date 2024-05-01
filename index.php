@@ -9,13 +9,29 @@ require "header.php";
 
 ?>
            <!-- search bar starts here   -->
-      <div class="container ">
+           <div class="container ">
+          <div class="row justify-content-center">
+          <div class="col-md-3 m-0">
+          <h5 class="m-0">Search Data by country</h5>
+          </div>
+          </div>
+          </div>
+      <div class="container mb-5">
+           
         <div class="d-flex justify-content-center">
             <div class="col-md-6 ">
                 <form class="d-flex mt-3" method="GET" action="search.php" id="form">
-                    <input class="form-control me-2" name="key" type="text" placeholder="Search"  required>
-                    <select name="country" class="form-select" aria-label="Default select example">
-                    <!-- <option selected="">Select Country</option> -->
+                
+                    <div>
+                    <label for="">Enter country name</label>
+                    <input class="form-control me-2" name="key" type="text" placeholder="search"  required>
+                    </div>
+                    
+            <div>
+      <!-- select area starts here  -->
+      <label for="">Select country</label>
+            <select name="country" class="form-select" aria-label="Default select example">
+                  
                     <option value="AFG">Afghanistan</option>
     <option value="ALA">Åland Islands</option>
     <option value="ALB">Albania</option>
@@ -266,16 +282,23 @@ require "header.php";
     <option value="ZMB">Zambia</option>
     <option value="ZWE">Zimbabwe</option>
                   </select>
+      <!-- select area ends here  -->
+
+
+            </div>
+                    <div class="mt-4">
                     <input id="searchbtn1" type="submit" name="submit" value="Serach" class="btn btn-primary">
                     <button style="display: none;" class="btn btn-primary" id="searchbtn2" type="submit">
                       <span class="spinner-border spinner-border-sm"></span>
                     </button>
+                    </div>
                   </form>
             </div>
         </div>
       </div>
 
            <!-- serach bar stops here  -->
+
 
            <!-- Homepage list starts here  -->
       <div class="container ">
@@ -289,12 +312,7 @@ require "header.php";
               <img src="asset/images/covid-data.png"  height="100" class="card-img-top w-100 " alt="">
                <h3 class="card-title text-center text-white"> <br>Covid <br> Data</h3>
             
-               
-             
-
-           
-            
- 
+         
             </div>
          </div></a>
            </div>
@@ -304,13 +322,7 @@ require "header.php";
               <div class="card-body justify-content-center row">
                 <img src="asset/images/covid-symthoms.png"  height="100" class="card-img-top w-100 " alt="">
                  <h3 class="card-title text-center text-white"> <br>Covid <br> Symptoms</h3>
-              
-                 
-               
-  
-             
-              
-   
+           
               </div>
            </div></a>
            </div>
@@ -321,12 +333,7 @@ require "header.php";
                 <img src="asset/images/covid-test.png"  height="100" class="card-img-top w-100 " alt="">
                  <h3 class="card-title text-center text-white"> <br>Covid <br>Test</h3>
               
-                 
-               
-  
-             
-              
-   
+          
               </div>
            </div></a>
            </div>
@@ -339,12 +346,7 @@ require "header.php";
                <img src="asset/images/slider-img.png"  height="100" class="card-img-top w-50 " alt="">
                 <h3 class="card-title text-center text-white"><br>Tested positive <br> For covid</h3>
              
-                
-              
- 
-            
-             
-  
+      
              </div>
           </div></a>
             </div>
@@ -355,12 +357,7 @@ require "header.php";
                  <img src="asset/images/geting-vaccine.png"  height="100" class="card-img-top w-100 " alt="">
                   <h3 class="card-title text-center text-white"> <br>Getting <br> Vaccinated <br></h3>
                
-                  
-                
-   
-              
-               
-    
+             
                </div>
             </div></a>
             </div>
@@ -370,13 +367,7 @@ require "header.php";
                <div class="card-body justify-content-center row">
                  <img src="asset/images/stay safe.png"  height="100" class="card-img-top w-100 " alt="">
                   <h3 class="card-title text-center text-white"> <br>Stay <br> safe</h3>
-               
-                  
-                
-   
-              
-               
-    
+        
                </div>
             </div></a>
             </div>
@@ -394,8 +385,7 @@ require "header.php";
                        </a>
                            <h6 class="card-title text-center">App Information</h6>
                         
-                           
-                               
+                        
                            <p class="card-text">
                          
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
